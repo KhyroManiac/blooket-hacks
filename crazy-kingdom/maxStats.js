@@ -12,7 +12,7 @@
             if (window.location.pathname != '/kingdom') {
                 alert('You must be in a crazy kingdom game!');
             } else {
-                reactHandler().stateNode.setState({ materials: 100, people: 100, happiness: 100, gold: 100 });
+                reactHandler().stateNode.setState({ materials: 0, people: 0, happiness: 100, gold: 0 });
         
                 alert('max stats set!');
             };
@@ -50,4 +50,4 @@ function footer() {
     });
 };
 
-footer();
+footer(); 
